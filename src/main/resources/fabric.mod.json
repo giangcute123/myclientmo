@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "catlean",
+  "version": "${version}",
+  "name": "Catlean Client",
+  "description": "FPS boost, HUD and utility client with a ClickGUI. Press Right Shift.",
+  "authors": ["giangcute123"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.catlean.CatleanClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
